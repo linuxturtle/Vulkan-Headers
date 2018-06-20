@@ -1,0 +1,5 @@
+vulkan-headers (1.1.77-1) UNRELEASED; urgency=medium
+
+  * Split from vulkan. (Closes: #901914)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Sun, 06 May 2018 12:11:26 +0300
