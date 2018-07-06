@@ -11,7 +11,7 @@ Homepage: https://github.com/KhronosGroup/Vulkan-Headers
 Vcs-Git: https://salsa.debian.org/xorg-team/vulkan/vulkan-headers.git
 Vcs-Browser: https://salsa.debian.org/xorg-team/vulkan/vulkan-headers.git
 
-Package: libvulkan-headers-dev
+Package: vulkan-headers
 Section: libdevel
 Architecture: linux-all
 Depends:
@@ -22,9 +22,5 @@ Breaks: vulkan-sdk-headers,
 Replaces: vulkan-sdk-headers,
  libvulkan-dev (<< 1.1.77),
 Description: Vulkan header files and API registry
- The Loader implements the main VK library. It handles layer management and
- driver management. The loader fully supports multi-gpu operation. As part of
- this, it dispatches API calls to the correct driver, and to the correct
- layers, based on the GPU object selected by the application.
- .
- This package includes files needed for development.
+ This package includes Vulkan headers files and API registry needed for
+ development of Vulkan apps.
