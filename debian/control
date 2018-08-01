@@ -13,7 +13,7 @@ Vcs-Browser: https://salsa.debian.org/xorg-team/vulkan/vulkan-headers.git
 
 Package: vulkan-headers
 Section: libdevel
-Architecture: linux-all
+Architecture: all
 Depends:
  libxrandr-dev,
  ${misc:Depends},
