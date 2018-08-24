@@ -2,6 +2,7 @@ vulkan-headers (1.1.82.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * watch: Updated.
+  * Drop intel header, shouldn't be needed anymore.
 
  -- Timo Aaltonen <tjaalton@debian.org>  Thu, 23 Aug 2018 20:37:06 +0300
 
